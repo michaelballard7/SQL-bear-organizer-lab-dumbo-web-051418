@@ -1,5 +1,5 @@
 def selects_all_female_bears_return_name_and_age
-  "SELECT name, age FROM bears WHERE gender is 'F'"
+  "SELECT name, age FROM bears WHERE gender is 'F'" # how does this know F is equal to 0 or 1
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
